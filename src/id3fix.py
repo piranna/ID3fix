@@ -15,6 +15,8 @@ from mutagen.id3     import ID3NoHeaderError
 
 class Duplicate:
     def __init__(self):
+        self._checked = set()
+
         self.files = set()
         self.commons = {}
         self.merge = {}
@@ -26,37 +28,39 @@ class Duplicate:
         def setConflict(key, value):
             self.conflicts[key].add(tuple(value))
 
-
         # Key has not value, check if it was found before so it should be merged
         if not value:
-            try:
-                value = self.commons.pop(key)
-            except KeyError:
-                pass
-            else:
-                print "Merge:", self.files, key, value
+            value = self.commons.pop(key, None)
+
+            if value:
                 self.merge[key] = value
 
-        #
+        # Key had conflicts, add another one more
         elif key in self.conflicts:
-            print "Conflic:", self.files, key, value, self.conflicts[key]
             setConflict(key, value)
 
+        # Key could be merged, check for conflicts
         elif key in self.merge:
             if value != self.merge[key]:
-                print "Conflic:", self.files, key, value, self.merge[key]
                 setConflict(key, self.merge.pop(key))
                 setConflict(key, value)
 
+        # Key common to all copies, check for conflicts
         elif key in self.commons:
             if value != self.commons[key]:
-                print "Conflic:", self.files, key, value, self.commons[key]
                 setConflict(key, self.commons.pop(key))
                 setConflict(key, value)
 
-        # Key is new
+        # Check if key was checked before, so it should be merged
+        elif key in self._checked:
+            self.merge[key] = value
+
+        # Key is new, set as common
         else:
             self.commons[key] = value
+
+        # Set key as checked
+        self._checked.add(key)
 
 
     def add(self, path, id3):
