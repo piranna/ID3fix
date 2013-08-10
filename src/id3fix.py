@@ -8,9 +8,10 @@ Created on 08/08/2013
 
 from collections import Counter, defaultdict
 
-from mp3hash         import mp3hash
 from mutagen.easyid3 import EasyID3
 from mutagen.id3     import ID3NoHeaderError
+
+from mp3hash import mp3hash
 
 
 class Duplicate:
@@ -20,13 +21,13 @@ class Duplicate:
         self.files = set()
         self.commons = {}
         self.merge = {}
-        self.conflicts = defaultdict(set)
+        self.conflicts = defaultdict(Counter)
 
     def _checkEntry(self, key, value):
         ""
 
         def setConflict(key, value):
-            self.conflicts[key].add(tuple(value))
+            self.conflicts[key].update(value)
 
         # Key has not value, check if it was found before so it should be merged
         if not value:
@@ -114,7 +115,9 @@ if __name__ == '__main__':
     for duplicate in id3fix.itervalues():
         if(len(duplicate.files) > 1):
             print "Files:", duplicate.files
-            print "Commons", duplicate.commons
-            print "Merge:", duplicate.merge
-            print "Conflicts", duplicate.conflicts
+#            print "Commons", duplicate.commons
+            if duplicate.merge:
+                print "Merge:", duplicate.merge
+            if duplicate.conflicts:
+                print "Conflicts", duplicate.conflicts
             print
