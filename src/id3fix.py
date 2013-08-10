@@ -23,6 +23,10 @@ class Duplicate:
     def _checkEntry(self, key, value):
         ""
 
+        def setConflict(key, value):
+            self.conflicts[key].add(tuple(value))
+
+
         # Key has not value, check if it was found before so it should be merged
         if not value:
             try:
@@ -30,19 +34,25 @@ class Duplicate:
             except KeyError:
                 pass
             else:
+                print "Merge:", self.files, key, value
                 self.merge[key] = value
 
         #
         elif key in self.conflicts:
-            self.conflicts[key].add(value)
+            print "Conflic:", self.files, key, value, self.conflicts[key]
+            setConflict(key, value)
 
         elif key in self.merge:
             if value != self.merge[key]:
-                self.conflicts[key].add(self.merge.pop(key), value)
+                print "Conflic:", self.files, key, value, self.merge[key]
+                setConflict(key, self.merge.pop(key))
+                setConflict(key, value)
 
         elif key in self.commons:
             if value != self.commons[key]:
-                self.conflicts[key].add(self.commons[key].pop(), value)
+                print "Conflic:", self.files, key, value, self.commons[key]
+                setConflict(key, self.commons.pop(key))
+                setConflict(key, value)
 
         # Key is new
         else:
@@ -50,8 +60,6 @@ class Duplicate:
 
 
     def add(self, path, id3):
-        print(path)
-
         self.files.add(path)
 
         for key in id3.valid_keys.iterkeys():
@@ -73,7 +81,7 @@ class Id3fix:
         if(file_hash):
             try:
                 id3 = EasyID3(path)
-            except ID3NoHeaderError:
+            except (ID3NoHeaderError, ValueError):
                 return
 
             self._hashes[file_hash].add(path, id3)
@@ -101,8 +109,8 @@ if __name__ == '__main__':
 
     for duplicate in id3fix.itervalues():
         if(len(duplicate.files) > 1):
-            print("Files:", duplicate.files)
-            print("Commons", duplicate.commons)
-            print("Merge:", duplicate.merge)
-            print("Conflicts", duplicate.conflicts)
+            print "Files:", duplicate.files
+            print "Commons", duplicate.commons
+            print "Merge:", duplicate.merge
+            print "Conflicts", duplicate.conflicts
             print
