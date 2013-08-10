@@ -10,14 +10,15 @@ from collections import Counter, defaultdict
 
 from mp3hash         import mp3hash
 from mutagen.easyid3 import EasyID3
+from mutagen.id3     import ID3NoHeaderError
 
 
 class Duplicate:
     def __init__(self):
-        self._files = set()
-        self._commons = {}
-        self._merge = {}
-        self._conflicts = defaultdict(set)
+        self.files = set()
+        self.commons = {}
+        self.merge = {}
+        self.conflicts = defaultdict(set)
 
     def _checkEntry(self, key, value):
         ""
@@ -25,34 +26,41 @@ class Duplicate:
         # Key has not value, check if it was found before so it should be merged
         if not value:
             try:
-                value = self._commons.pop(key)
+                value = self.commons.pop(key)
             except KeyError:
                 pass
             else:
-                self._merge[key] = value
+                self.merge[key] = value
 
         #
-        elif key in self._conflicts:
-            self._conflicts[key].add(value)
+        elif key in self.conflicts:
+            self.conflicts[key].add(value)
 
-        elif key in self._merge:
-            if value != self._merge[key]:
-                self._conflicts[key].add(self._merge.pop(key), value)
+        elif key in self.merge:
+            if value != self.merge[key]:
+                self.conflicts[key].add(self.merge.pop(key), value)
 
-        elif key in self._commons:
-            if value != self._commons[key]:
-                self._conflicts[key].add(self._commons[key].pop(), value)
+        elif key in self.commons:
+            if value != self.commons[key]:
+                self.conflicts[key].add(self.commons[key].pop(), value)
 
         # Key is new
         else:
-            self._commons[key] = value
+            self.commons[key] = value
 
 
-    def add(self, path):
-        id3 = EasyID3(path)
+    def add(self, path, id3):
+        print(path)
+
+        self.files.add(path)
 
         for key in id3.valid_keys.iterkeys():
-            self._checkEntry(key, id3[key])
+            try:
+                value = id3[key]
+            except KeyError:
+                value = None
+
+            self._checkEntry(key, value)
 
 
 class Id3fix:
@@ -63,10 +71,15 @@ class Id3fix:
         file_hash = mp3hash(path)
 
         if(file_hash):
-            self._hashes[file_hash].add(path)
+            try:
+                id3 = EasyID3(path)
+            except ID3NoHeaderError:
+                return
 
-    def __iter__(self):
-        return self._hashes
+            self._hashes[file_hash].add(path, id3)
+
+    def itervalues(self):
+        return self._hashes.itervalues()
 
 
 if __name__ == '__main__':
@@ -86,5 +99,10 @@ if __name__ == '__main__':
             for name in filenames:
                 id3fix.add(join(dirpath, name))
 
-    for duplicate in id3fix:
-        print duplicate
+    for duplicate in id3fix.itervalues():
+        if(len(duplicate.files) > 1):
+            print("Files:", duplicate.files)
+            print("Commons", duplicate.commons)
+            print("Merge:", duplicate.merge)
+            print("Conflicts", duplicate.conflicts)
+            print
