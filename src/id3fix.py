@@ -14,6 +14,10 @@ from mutagen.id3     import ID3NoHeaderError
 from mp3hash import mp3hash
 
 
+# Global tag values to improve fixing of conflicts
+tags_values = defaultdict(Counter)
+
+
 class Duplicate:
     def __init__(self):
         self._checked = set()
@@ -25,6 +29,15 @@ class Duplicate:
 
     def _apply(self, key, value):
         for id3 in self.files.itervalues():
+            # Updage global tags counter
+            old_value = id3[key]
+            tags = tags_values[key]
+
+            if old_value:
+                tags.subtract(old_value)
+            tags.update(value)
+
+            # Set the (new) entry value
             id3[key] = value
 
     def _checkEntry(self, key, value):
@@ -82,6 +95,9 @@ class Duplicate:
 
             self._checkEntry(key, value)
 
+            if value:
+                tags_values[key].update(value)
+
 
 class Id3fix:
     def __init__(self):
@@ -98,9 +114,9 @@ class Id3fix:
 
             self._hashes[file_hash].add(path, id3)
 
-    def fix(self):
+    def fix(self, user_feedback):
         self.fixMerge()
-        self.fixConflicts()
+        self.fixConflicts(user_feedback)
 
     def fixMerge(self):
         # Apply the ready-to-merge values to the tags
@@ -113,12 +129,48 @@ class Id3fix:
             # Set the merge values as common
             duplicate._setCommon(merge)
 
-    def fixConflicts(self):
+    def fixConflicts(self, user_feedback):
         for duplicate in self.itervalues():
             conflicts = duplicate.conflicts
 
             for key, conflict in conflicts.iteritems():
-                value = conflict.most_common(1)[0][0]
+
+                def getMostCommons(most_common):
+                    value_0, counts_0 = most_common[0]
+                    result = [value_0]
+
+                    for value, counts in most_common[1:]:
+                        if counts < counts_0:
+                            break
+                        result.append(value)
+
+                    return result
+
+                # Get the most common values
+                most_common = getMostCommons(conflict.most_common())
+
+                # More than one is the most common, select one
+                if len(most_common) > 1:
+                    # Select the global most common value
+                    tags = tags_values[key]
+
+                    values = {}
+                    for value in most_common:
+                        values[value] = tags[value]
+
+                    values = getMostCommons(Counter(values).most_common())
+
+                    # More than one is the most common, ask user
+                    if len(values) > 1:
+                        value = user_feedback(values)
+
+                    # Only one is the most common, use it
+                    else:
+                        value = values[0]
+
+                # Only one is the most common, use it
+                else:
+                    value = most_common[0]
 
                 duplicate._apply(key, value)
 
@@ -151,12 +203,26 @@ if __name__ == '__main__':
             for name in filenames:
                 id3fix.add(join(dirpath, name))
 
-    id3fix.fixMerge()
-    id3fix.save()
+    def user_feedback(values):
+        print "Unsolvable conflict:"
+        for index, value in enumerate(values, 1):
+            print "\t["+index+"]",value
+        print
+
+        length = len(values)
+        index = None
+
+        while index not in xrange(1, length+1):
+            index = raw_input("Select one option [1-"+length+"]:")
+
+        return values[index]
+
+    id3fix.fix(user_feedback)
+#    id3fix.save()
 
     for duplicate in id3fix.itervalues():
         if(len(duplicate.files) > 1):
-            print "Files:", duplicate.files.keys()
+            print "Files:", duplicate.files
 #            print "Commons", duplicate.commons
             if duplicate.merge:
                 print "Merge:", duplicate.merge
