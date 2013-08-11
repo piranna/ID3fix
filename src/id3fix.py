@@ -18,10 +18,14 @@ class Duplicate:
     def __init__(self):
         self._checked = set()
 
-        self.files = set()
+        self.files = {}
         self.commons = {}
         self.merge = {}
         self.conflicts = defaultdict(Counter)
+
+    def _apply(self, key, value):
+        for id3 in self.files.itervalues():
+            id3[key] = value
 
     def _checkEntry(self, key, value):
         ""
@@ -63,9 +67,12 @@ class Duplicate:
         # Set key as checked
         self._checked.add(key)
 
+    def _setCommon(self, merged):
+        self.commons.update(merged)
+        merged.clear()
 
     def add(self, path, id3):
-        self.files.add(path)
+        self.files[path] = id3
 
         for key in id3.valid_keys.iterkeys():
             try:
@@ -91,8 +98,40 @@ class Id3fix:
 
             self._hashes[file_hash].add(path, id3)
 
+    def fix(self):
+        self.fixMerge()
+        self.fixConflicts()
+
+    def fixMerge(self):
+        # Apply the ready-to-merge values to the tags
+        for duplicate in self.itervalues():
+            merge = duplicate.merge
+
+            for key, value in merge.iteritems():
+                duplicate._apply(key, value)
+
+            # Set the merge values as common
+            duplicate._setCommon(merge)
+
+    def fixConflicts(self):
+        for duplicate in self.itervalues():
+            conflicts = duplicate.conflicts
+
+            for key, conflict in conflicts.iteritems():
+                value = conflict.most_common(1)[0][0]
+
+                duplicate._apply(key, value)
+
+            # Set the conflicts values as common
+            duplicate._setCommon(conflicts)
+
     def itervalues(self):
         return self._hashes.itervalues()
+
+    def save(self):
+        for duplicate in self.itervalues():
+            for id3 in duplicate.files.itervalues():
+                id3.save(v1=2)
 
 
 if __name__ == '__main__':
@@ -112,9 +151,12 @@ if __name__ == '__main__':
             for name in filenames:
                 id3fix.add(join(dirpath, name))
 
+    id3fix.fixMerge()
+    id3fix.save()
+
     for duplicate in id3fix.itervalues():
         if(len(duplicate.files) > 1):
-            print "Files:", duplicate.files
+            print "Files:", duplicate.files.keys()
 #            print "Commons", duplicate.commons
             if duplicate.merge:
                 print "Merge:", duplicate.merge
