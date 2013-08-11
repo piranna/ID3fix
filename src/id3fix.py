@@ -162,7 +162,8 @@ class Id3fix:
 
                     # More than one is the most common, ask user
                     if len(values) > 1:
-                        value = user_feedback(values)
+                        files = duplicate.files
+                        value = user_feedback(files.iterkeys(), values)
 
                     # Only one is the most common, use it
                     else:
@@ -203,8 +204,13 @@ if __name__ == '__main__':
             for name in filenames:
                 id3fix.add(join(dirpath, name))
 
-    def user_feedback(values):
+    def user_feedback(files, values):
         print "Unsolvable conflict:"
+
+        for file in files:
+            print file
+        print
+
         for index, value in enumerate(values, 1):
             print "\t["+index+"]",value
         print
@@ -217,7 +223,7 @@ if __name__ == '__main__':
 
         return values[index]
 
-    id3fix.fix(user_feedback)
+#    id3fix.fix(user_feedback)
 #    id3fix.save()
 
     for duplicate in id3fix.itervalues():
