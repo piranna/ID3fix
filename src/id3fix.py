@@ -130,53 +130,89 @@ class Id3fix:
             duplicate._setCommon(merge)
 
     def fixConflicts(self, user_feedback):
-        for duplicate in self.itervalues():
-            conflicts = duplicate.conflicts
+        conflictsQueue = []
+        askUser = False
 
-            for key, conflict in conflicts.iteritems():
+        def getMostCommons(most_common):
+            value_0, counts_0 = most_common[0]
+            result = [value_0]
 
-                def getMostCommons(most_common):
-                    value_0, counts_0 = most_common[0]
-                    result = [value_0]
+            for value, counts in most_common[1:]:
+                if counts < counts_0:
+                    break
+                result.append(value)
 
-                    for value, counts in most_common[1:]:
-                        if counts < counts_0:
-                            break
-                        result.append(value)
+            return result
 
-                    return result
+        def _fixConflicts(duplicates):
+            for duplicate in duplicates:
 
-                # Get the most common values
-                most_common = getMostCommons(conflict.most_common())
+                addedToQueue = False
 
-                # More than one is the most common, select one
-                if len(most_common) > 1:
-                    # Select the global most common value
-                    tags = tags_values[key]
+                def fixConflict(key, conflict):
+                    # Get the most common values
+                    most_common = getMostCommons(conflict.most_common())
+                    print most_common
 
-                    values = {}
-                    for value in most_common:
-                        values[value] = tags[value]
+                    # More than one is the most common, select one
+                    if len(most_common) > 1:
+                        # Select the global most common value
+                        tags = tags_values[key]
 
-                    values = getMostCommons(Counter(values).most_common())
+                        values = {}
+                        for value in most_common:
+                            values[value] = tags[value]
+                        values = Counter(values)
 
-                    # More than one is the most common, ask user
-                    if len(values) > 1:
-                        files = duplicate.files
-                        value = user_feedback(files.iterkeys(), values)
+                        most_common = getMostCommons(values.most_common())
+                        print most_common
+
+                        # More than one is still the most common,
+                        # queue it to re-check later
+                        if len(most_common) > 1:
+                            # Add duplicate to queue only once on this round
+                            if not addedToQueue:
+                                if askUser:
+                                    files = duplicate.files.iterkeys()
+                                    value = user_feedback(files, values)
+
+                                    askUser = False
+
+                                else:
+                                    conflictsQueue.append(duplicate)
+                                    addedToQueue = True
+
+                            return
 
                     # Only one is the most common, use it
-                    else:
-                        value = values[0]
-
-                # Only one is the most common, use it
-                else:
                     value = most_common[0]
 
-                duplicate._apply(key, value)
+                    duplicate._apply(key, value)
 
-            # Set the conflicts values as common
-            duplicate._setCommon(conflicts)
+                    # Set the conflicts values as common
+                    duplicate.commons[key] = value
+                    del duplicate.conflicts[key]
+
+                for key, conflict in duplicate.conflicts.items():
+                    fixConflict(key, conflict)
+
+        # Run initially over the duplicates list, and later over the unresolved
+        # conflicts (if any)
+        duplicates = self.itervalues()
+        length = len(self._hashes)
+        while duplicates:
+            _fixConflicts(duplicates)
+
+            # If number of items in the queue has not decreased (probably) means
+            # no conflicts could be resolved also after several iterations, so
+            # we ask to the user
+            if len(conflictsQueue) == length:
+                askUser = True
+
+            # Update duplicates and conflicts queues
+            duplicates = conflictsQueue
+            length = len(duplicates)
+            conflictsQueue = []
 
     def itervalues(self):
         return self._hashes.itervalues()
@@ -223,7 +259,7 @@ if __name__ == '__main__':
 
         return values[index]
 
-#    id3fix.fix(user_feedback)
+    id3fix.fix(user_feedback)
 #    id3fix.save()
 
     for duplicate in id3fix.itervalues():
