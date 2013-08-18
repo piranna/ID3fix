@@ -63,7 +63,18 @@ if __name__ == '__main__':
 
     for arg_dir in args.dirs:
         for dirpath, dirnames, filenames in walk(arg_dir):
+
+            # Conflicted files
             for name in filenames:
                 fixConflict(root, join(dirpath, name))
+
+            # Empty directories
             for name in dirnames:
-                removedirs(join(dirpath, name))
+                path = join(dirpath, name)
+
+                try:
+                    removedirs(path)
+                except OSError:
+                    pass
+                else:
+                    print '[Deleted]',path
