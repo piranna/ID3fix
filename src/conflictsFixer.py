@@ -14,7 +14,8 @@ from re        import sub
 
 
 CONFLICT_REGEX = [r' \(Case Conflict( \(\d+\))?\)',
-                  r' \(Conflicto de mayúsculas y minúsculas( \(\d+\))?\)']
+                  r' \(Conflicto de mayúsculas y minúsculas( \(\d+\))?\)',
+                  r' \(Copia en conflicto de .+? \d{4}-\d{2}-\d{2}\)']
 
 
 def genNonConflictingPath(path):
