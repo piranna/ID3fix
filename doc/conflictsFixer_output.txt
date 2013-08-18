@@ -1,0 +1,605 @@
+[piranna@Latitude:~/Dropbox/Proyectos/ID3fix/src]
+ > ./conflictsFixer.py ~/Música/
+/home/piranna/Música/Christina y los subterráneos (Conflicto de mayúsculas y minúsculas (9))/Mi pequeño animal/03. Pálido.mp3
+/home/piranna/Música/Christina y los subterráneos/Mi pequeño animal/03. Pálido.mp3
+
+/home/piranna/Música/Christina y los subterráneos (Conflicto de mayúsculas y minúsculas (9))/Mi pequeño animal/01. Mi habitación.mp3
+/home/piranna/Música/Christina y los subterráneos/Mi pequeño animal/01. Mi habitación.mp3
+
+/home/piranna/Música/Christina y los subterráneos (Conflicto de mayúsculas y minúsculas (9))/Mi pequeño animal/02. Días grandes de Teresa.mp3
+/home/piranna/Música/Christina y los subterráneos/Mi pequeño animal/02. Días grandes de Teresa.mp3
+
+/home/piranna/Música/Christina y los subterráneos (Conflicto de mayúsculas y minúsculas (9))/Que me parta un rayo/02. 1000 PEDAZOS.mp3
+/home/piranna/Música/Christina y los subterráneos/Que me parta un rayo/02. 1000 PEDAZOS.mp3
+
+/home/piranna/Música/Lucky Twice/Young & Clever (Case Conflict)/01. Hop non stop.mp3
+/home/piranna/Música/Lucky Twice/Young & Clever/01. Hop non stop.mp3
+
+/home/piranna/Música/Lucky Twice/Young & Clever (Case Conflict)/album.png
+/home/piranna/Música/Lucky Twice/Young & Clever/album.png
+
+/home/piranna/Música/Alejandro Fernández/Viento a Favor (Case Conflict)/06. No Se Me Hace Facil.mp3
+/home/piranna/Música/Alejandro Fernández/Viento a Favor/06. No Se Me Hace Facil (1).mp3
+
+/home/piranna/Música/Alejandro Fernández/A corazon Abierto (Case Conflict)/12. Muy Lejos de Ti.mp3
+/home/piranna/Música/Alejandro Fernández/A corazon Abierto/12. Muy Lejos de Ti.mp3
+
+/home/piranna/Música/Christina y los subterráneos (Conflicto de mayúsculas y minúsculas (17))/Mi pequeño animal/11. Al fin sola al fin loca.mp3
+/home/piranna/Música/Christina y los subterráneos/Mi pequeño animal/11. Al fin sola al fin loca.mp3
+
+/home/piranna/Música/La 5ª Estación/El mundo se equivoca (Case Conflict)/11 Para No Decirte Adios.mp3
+/home/piranna/Música/La 5ª Estación/El mundo se equivoca/11 Para No Decirte Adios.mp3
+
+/home/piranna/Música/La 5ª Estación/El mundo se equivoca (Case Conflict)/05 Me Muero.mp3
+/home/piranna/Música/La 5ª Estación/El mundo se equivoca/05 Me Muero.mp3
+
+/home/piranna/Música/La 5ª Estación/El mundo se equivoca (Case Conflict)/01 El Amor No Duele.mp3
+/home/piranna/Música/La 5ª Estación/El mundo se equivoca/01 El Amor No Duele.mp3
+
+/home/piranna/Música/La 5ª Estación/El mundo se equivoca (Case Conflict)/09 Nada.mp3
+/home/piranna/Música/La 5ª Estación/El mundo se equivoca/09 Nada.mp3
+
+/home/piranna/Música/La 5ª Estación/El mundo se equivoca (Case Conflict)/02 Que Fui Para Ti.mp3
+/home/piranna/Música/La 5ª Estación/El mundo se equivoca/02 Que Fui Para Ti.mp3
+
+/home/piranna/Música/La 5ª Estación/El mundo se equivoca (Case Conflict)/03 Sin Miedos.mp3
+/home/piranna/Música/La 5ª Estación/El mundo se equivoca/03 Sin Miedos.mp3
+
+/home/piranna/Música/La 5ª Estación/El mundo se equivoca (Case Conflict)/08 Cartas.mp3
+/home/piranna/Música/La 5ª Estación/El mundo se equivoca/08 Cartas.mp3
+
+/home/piranna/Música/La 5ª Estación/El mundo se equivoca (Case Conflict)/04 Asi Eres.mp3
+/home/piranna/Música/La 5ª Estación/El mundo se equivoca/04 Asi Eres.mp3
+
+/home/piranna/Música/José El Francés Con Niña Pastori y Vicente Amigo (Conflicto de mayúsculas y minúsculas)/Sabor Flamenco CD 1/01. Ya no quiero tu querer.mp3
+/home/piranna/Música/José El Francés Con Niña Pastori y Vicente Amigo/Sabor Flamenco CD 1/01. Ya no quiero tu querer (1).mp3
+
+/home/piranna/Música/Avril Lavigne/Let go (Case Conflict)/05. Mobile.mp3
+/home/piranna/Música/Avril Lavigne/Let go/05. Mobile.mp3
+
+/home/piranna/Música/Avril Lavigne/Let go (Case Conflict)/10. My World.mp3
+/home/piranna/Música/Avril Lavigne/Let go/10. My World.mp3
+
+/home/piranna/Música/Avril Lavigne/Let go (Case Conflict (5))/06. Unwanted.mp3
+/home/piranna/Música/Avril Lavigne/Let go/06. Unwanted.mp3
+
+/home/piranna/Música/Avril Lavigne/Let go (Case Conflict (7))/07. Tomorrow.mp3
+/home/piranna/Música/Avril Lavigne/Let go/07. Tomorrow.mp3
+
+/home/piranna/Música/Avril Lavigne/Let go (Case Conflict (2))/10. My World.mp3
+/home/piranna/Música/Avril Lavigne/Let go/10. My World.mp3
+
+/home/piranna/Música/Avril Lavigne/Let go (Case Conflict (15))/08. Anything But Ordinary.mp3
+/home/piranna/Música/Avril Lavigne/Let go/08. Anything But Ordinary.mp3
+
+/home/piranna/Música/Avril Lavigne/Let go (Case Conflict (4))/04. Im With You.mp3
+/home/piranna/Música/Avril Lavigne/Let go/04. Im With You.mp3
+
+/home/piranna/Música/Avril Lavigne/Let go (Case Conflict (16))/02. Complicated.mp3
+/home/piranna/Música/Avril Lavigne/Let go/02. Complicated.mp3
+
+/home/piranna/Música/Avril Lavigne/Under my skin/11. freak out (Case Conflict).mp3
+/home/piranna/Música/Avril Lavigne/Under my skin/11. freak out.mp3
+
+/home/piranna/Música/Avril Lavigne/Let go (Case Conflict (14))/05. Mobile.mp3
+/home/piranna/Música/Avril Lavigne/Let go/05. Mobile.mp3
+
+/home/piranna/Música/Avril Lavigne/Let go (Case Conflict (8))/01. Losing Grip.mp3
+/home/piranna/Música/Avril Lavigne/Let go/01. Losing Grip.mp3
+
+/home/piranna/Música/Avril Lavigne/Let go (Case Conflict (1))/12. Too Much To Ask.mp3
+/home/piranna/Música/Avril Lavigne/Let go/12. Too Much To Ask.mp3
+
+/home/piranna/Música/Avril Lavigne/Let go (Case Conflict (6))/06. Unwanted.mp3
+/home/piranna/Música/Avril Lavigne/Let go/06. Unwanted.mp3
+
+/home/piranna/Música/Christina y los subterráneos (Conflicto de mayúsculas y minúsculas (11))/Que me parta un rayo/02. 1000 PEDAZOS.mp3
+/home/piranna/Música/Christina y los subterráneos/Que me parta un rayo/02. 1000 PEDAZOS.mp3
+
+/home/piranna/Música/Christina y los subterráneos (Conflicto de mayúsculas y minúsculas (8))/Que me parta un rayo/05. Yo No Soy Tu Ángel.mp3
+/home/piranna/Música/Christina y los subterráneos/Que me parta un rayo/05. Yo No Soy Tu Ángel.mp3
+
+/home/piranna/Música/Lady Gaga (Case Conflict (1))/The Fame Monster (Explicit version)/02 Alejandro.mp3.mp3
+/home/piranna/Música/Lady Gaga/The Fame Monster (Explicit version)/02 Alejandro.mp3.mp3
+
+/home/piranna/Música/Christina y los subterráneos (Conflicto de mayúsculas y minúsculas (7))/Que me parta un rayo/07. Ni una maldita florecita.mp3
+/home/piranna/Música/Christina y los subterráneos/Que me parta un rayo/07. Ni una maldita florecita.mp3
+
+/home/piranna/Música/Christina y los subterráneos (Conflicto de mayúsculas y minúsculas (3))/Que me parta un rayo/06. VOY EN UN COCHE (Conflicto de mayúsculas y minúsculas).mp3
+/home/piranna/Música/Christina y los subterráneos/Que me parta un rayo/06. VOY EN UN COCHE.mp3
+
+/home/piranna/Música/Christina y los subterráneos (Conflicto de mayúsculas y minúsculas (3))/Que me parta un rayo/05. Yo no soy tu angel (Conflicto de mayúsculas y minúsculas).mp3
+/home/piranna/Música/Christina y los subterráneos/Que me parta un rayo/05. Yo no soy tu angel.mp3
+
+/home/piranna/Música/Kylie Minogue/Rhythm Of Love (Case Conflict (2))/04. Step Back In Time.mp3
+/home/piranna/Música/Kylie Minogue/Rhythm Of Love/04. Step Back In Time.mp3
+
+/home/piranna/Música/Christina y los subterráneos (Conflicto de mayúsculas y minúsculas (12))/Que me parta un rayo/03. PULGAS EN EL CORAZON.mp3
+/home/piranna/Música/Christina y los subterráneos/Que me parta un rayo/03. PULGAS EN EL CORAZON.mp3
+
+/home/piranna/Música/Christina y los subterráneos (Conflicto de mayúsculas y minúsculas (12))/Que me parta un rayo/05. Yo no soy tu angel.mp3
+/home/piranna/Música/Christina y los subterráneos/Que me parta un rayo/05. Yo no soy tu angel.mp3
+
+/home/piranna/Música/Christina y los subterráneos (Conflicto de mayúsculas y minúsculas (12))/Que me parta un rayo/03. Pulgas En El Corazón.mp3
+/home/piranna/Música/Christina y los subterráneos/Que me parta un rayo/03. Pulgas En El Corazón.mp3
+
+/home/piranna/Música/Christina y los subterráneos (Conflicto de mayúsculas y minúsculas (12))/Que me parta un rayo/02. 1000 pedazos.mp3
+/home/piranna/Música/Christina y los subterráneos/Que me parta un rayo/02. 1000 pedazos.mp3
+
+/home/piranna/Música/M-Clan/Usar y Tirar (Case Conflict) (Case Conflict)/Llamando a la tierra.mp3
+/home/piranna/Música/M-Clan/Usar y Tirar/Llamando a la tierra.mp3
+
+/home/piranna/Música/M-Clan/Sin enchufe/15. Llamando a la tierra (Case Conflict).mp3
+/home/piranna/Música/M-Clan/Sin enchufe/15. Llamando a la tierra (1).mp3
+
+/home/piranna/Música/M-Clan/Usar y tirar (Case Conflict (16))/13. Llamando a la tierra (Versión Inlges).mp3
+/home/piranna/Música/M-Clan/Usar y tirar/13. Llamando a la tierra (Versión Inlges) (1).mp3
+
+/home/piranna/Música/M-Clan/Usar y tirar (Case Conflict (16))/12. 39 grados.mp3
+/home/piranna/Música/M-Clan/Usar y tirar/12. 39 grados (1).mp3
+
+/home/piranna/Música/M-Clan/Usar y tirar (Case Conflict)/06 No tan bueno.mp3
+/home/piranna/Música/M-Clan/Usar y tirar/06 No tan bueno.mp3
+
+/home/piranna/Música/M-Clan/Usar y tirar (Case Conflict (18))/03. Quédate a dormir.mp3
+/home/piranna/Música/M-Clan/Usar y tirar/03. Quédate a dormir.mp3
+
+/home/piranna/Música/Jarabe de Palo (Case Conflict (19))/Depende/01. Depende.mp3
+/home/piranna/Música/Jarabe de Palo/Depende/01. Depende (1).mp3
+
+/home/piranna/Música/Jarabe de Palo (Case Conflict (19))/Depende/03. Te miro y tiemblo.mp3
+/home/piranna/Música/Jarabe de Palo/Depende/03. Te miro y tiemblo (1).mp3
+
+/home/piranna/Música/Jarabe de Palo (Case Conflict (20))/Depende/11. Vive y deja vivir.mp3
+/home/piranna/Música/Jarabe de Palo/Depende/11. Vive y deja vivir (1).mp3
+
+/home/piranna/Música/Jarabe de Palo (Case Conflict (20))/Depende/09. Toca mi canción.mp3
+/home/piranna/Música/Jarabe de Palo/Depende/09. Toca mi canción (1).mp3
+
+/home/piranna/Música/Hilary Duff/hilary duff (Case Conflict)/who's that girl.ogg
+/home/piranna/Música/Hilary Duff/hilary duff/who's that girl.ogg
+
+/home/piranna/Música/Hilary Duff/hilary duff (Case Conflict (3))/my generation (bonus track).ogg
+/home/piranna/Música/Hilary Duff/hilary duff/my generation (bonus track).ogg
+
+/home/piranna/Música/Hilary Duff/hilary duff (Case Conflict (3))/mr.james dean.ogg
+/home/piranna/Música/Hilary Duff/hilary duff/mr.james dean.ogg
+
+/home/piranna/Música/Hilary Duff/hilary duff (Case Conflict (3))/do you want me.ogg
+/home/piranna/Música/Hilary Duff/hilary duff/do you want me.ogg
+
+/home/piranna/Música/Hilary Duff/hilary duff (Case Conflict (3))/haters.ogg
+/home/piranna/Música/Hilary Duff/hilary duff/haters.ogg
+
+/home/piranna/Música/Hilary Duff/hilary duff (Case Conflict (3))/jericho.ogg
+/home/piranna/Música/Hilary Duff/hilary duff/jericho.ogg
+
+/home/piranna/Música/Hilary Duff/hilary duff (Case Conflict (3))/fly.ogg
+/home/piranna/Música/Hilary Duff/hilary duff/fly.ogg
+
+/home/piranna/Música/Hilary Duff/hilary duff (Case Conflict (4))/our lips are sealed (bonus track).ogg
+/home/piranna/Música/Hilary Duff/hilary duff/our lips are sealed (bonus track).ogg
+
+/home/piranna/Música/Hilary Duff/hilary duff (Case Conflict (1))/who's that girl (acoustic mix).ogg
+/home/piranna/Música/Hilary Duff/hilary duff/who's that girl (acoustic mix).ogg
+
+/home/piranna/Música/Loquillo y los trogloditas (Case Conflict (1))/Álbum desconocido/Cadillac solitario.mp3
+/home/piranna/Música/Loquillo y los trogloditas/Álbum desconocido/Cadillac solitario (1).mp3
+
+/home/piranna/Música/Christina y los subterráneos (Conflicto de mayúsculas y minúsculas (5))/Que me parta un rayo/08. Tengo una pistola (Conflicto de mayúsculas y minúsculas).mp3
+/home/piranna/Música/Christina y los subterráneos/Que me parta un rayo/08. Tengo una pistola.mp3
+
+/home/piranna/Música/Christina y los subterráneos (Conflicto de mayúsculas y minúsculas (5))/Que me parta un rayo/01. Tu por mi (Conflicto de mayúsculas y minúsculas).mp3
+/home/piranna/Música/Christina y los subterráneos/Que me parta un rayo/01. Tu por mi.mp3
+
+/home/piranna/Música/Christina y los subterráneos (Conflicto de mayúsculas y minúsculas (5))/Que me parta un rayo/10. Alguien que cuide de mi (Conflicto de mayúsculas y minúsculas).mp3
+/home/piranna/Música/Christina y los subterráneos/Que me parta un rayo/10. Alguien que cuide de mi.mp3
+
+/home/piranna/Música/Christina y los subterráneos (Conflicto de mayúsculas y minúsculas (5))/Que me parta un rayo/07. Ni una maldita florecita (Conflicto de mayúsculas y minúsculas).mp3
+/home/piranna/Música/Christina y los subterráneos/Que me parta un rayo/07. Ni una maldita florecita.mp3
+
+/home/piranna/Música/Christina y los subterráneos (Conflicto de mayúsculas y minúsculas (10))/Que me parta un rayo/01. Tu por mi (Conflicto de mayúsculas y minúsculas).mp3
+/home/piranna/Música/Christina y los subterráneos/Que me parta un rayo/01. Tu por mi.mp3
+
+/home/piranna/Música/Christina y los subterráneos (Conflicto de mayúsculas y minúsculas)/Que me parta un rayo/04. SEÑORITA.mp3
+/home/piranna/Música/Christina y los subterráneos/Que me parta un rayo/04. SEÑORITA.mp3
+
+/home/piranna/Música/Celtas Cortos/Tranquilo Majete (Conflicto de mayúsculas y minúsculas)/03. La mujer barbuda.mp3
+/home/piranna/Música/Celtas Cortos/Tranquilo Majete/03. La mujer barbuda.mp3
+
+/home/piranna/Música/Celtas Cortos/Tranquilo Majete (Conflicto de mayúsculas y minúsculas)/08. Carta a Rigoberta Menchu.mp3
+/home/piranna/Música/Celtas Cortos/Tranquilo Majete/08. Carta a Rigoberta Menchu.mp3
+
+/home/piranna/Música/Celtas Cortos/Tranquilo Majete (Conflicto de mayúsculas y minúsculas)/04. Madera de colleja.mp3
+/home/piranna/Música/Celtas Cortos/Tranquilo Majete/04. Madera de colleja.mp3
+
+/home/piranna/Música/Celtas Cortos/Tranquilo Majete (Conflicto de mayúsculas y minúsculas (3))/06. Buena onda.mp3
+/home/piranna/Música/Celtas Cortos/Tranquilo Majete/06. Buena onda.mp3
+
+/home/piranna/Música/Celtas Cortos/Tranquilo Majete (Conflicto de mayúsculas y minúsculas (3))/07. Romance de Rosabella y Domingo.mp3
+/home/piranna/Música/Celtas Cortos/Tranquilo Majete/07. Romance de Rosabella y Domingo.mp3
+
+/home/piranna/Música/Celtas Cortos/Tranquilo Majete (Conflicto de mayúsculas y minúsculas (3))/10. La fragua del Averno.mp3
+/home/piranna/Música/Celtas Cortos/Tranquilo Majete/10. La fragua del Averno.mp3
+
+/home/piranna/Música/Celtas Cortos/Tienes La Puerta Abierta (Conflicto de mayúsculas y minúsculas)/15. Odio al odio.mp3
+/home/piranna/Música/Celtas Cortos/Tienes La Puerta Abierta/15. Odio al odio.mp3
+
+/home/piranna/Música/Celtas Cortos/Tienes La Puerta Abierta (Conflicto de mayúsculas y minúsculas)/13. La vaca naranja.mp3
+/home/piranna/Música/Celtas Cortos/Tienes La Puerta Abierta/13. La vaca naranja.mp3
+
+/home/piranna/Música/Celtas Cortos/Tienes La Puerta Abierta (Conflicto de mayúsculas y minúsculas)/12. Calor humano de hierba.mp3
+/home/piranna/Música/Celtas Cortos/Tienes La Puerta Abierta/12. Calor humano de hierba.mp3
+
+/home/piranna/Música/Celtas Cortos/Tienes La Puerta Abierta (Conflicto de mayúsculas y minúsculas)/05. A saber.mp3
+/home/piranna/Música/Celtas Cortos/Tienes La Puerta Abierta/05. A saber.mp3
+
+/home/piranna/Música/Celtas Cortos/Cuéntame Un Cuento (Conflicto de mayúsculas y minúsculas (4))/02. Trágame Tierra.mp3
+/home/piranna/Música/Celtas Cortos/Cuéntame Un Cuento/02. Trágame Tierra.mp3
+
+/home/piranna/Música/Celtas Cortos/Cuéntame Un Cuento (Conflicto de mayúsculas y minúsculas)/06. Más kilómetros!!.mp3
+/home/piranna/Música/Celtas Cortos/Cuéntame Un Cuento/06. Más kilómetros!!.mp3
+
+/home/piranna/Música/Celtas Cortos/Cuéntame Un Cuento (Conflicto de mayúsculas y minúsculas)/10. Onda Caribe 10.5 (Muévete brother, aquí y ahora).mp3
+/home/piranna/Música/Celtas Cortos/Cuéntame Un Cuento/10. Onda Caribe 10.5 (Muévete brother, aquí y ahora).mp3
+
+/home/piranna/Música/Celtas Cortos/Nos Vemos En Los Bares (Conflicto de mayúsculas y minúsculas)/04. Pelotazo - Polkas.mp3
+/home/piranna/Música/Celtas Cortos/Nos Vemos En Los Bares/04. Pelotazo - Polkas.mp3
+
+/home/piranna/Música/Celtas Cortos/Gente Impresentable (Conflicto de mayúsculas y minúsculas (1))/03. La senda del tiempo.mp3
+/home/piranna/Música/Celtas Cortos/Gente Impresentable/03. La senda del tiempo.mp3
+
+/home/piranna/Música/Celtas Cortos/Gente Impresentable (Conflicto de mayúsculas y minúsculas (1))/04. Correcaminos.mp3
+/home/piranna/Música/Celtas Cortos/Gente Impresentable/04. Correcaminos.mp3
+
+/home/piranna/Música/Celtas Cortos/El Alquimista Loco (Conflicto de mayúsculas y minúsculas (1))/04. Rumbo a Mambo (Matylda's song).mp3
+/home/piranna/Música/Celtas Cortos/El Alquimista Loco/04. Rumbo a Mambo (Matylda's song).mp3
+
+/home/piranna/Música/Celtas Cortos/Tranquilo Majete (Conflicto de mayúsculas y minúsculas (1))/13. Siempre igual.mp3
+/home/piranna/Música/Celtas Cortos/Tranquilo Majete/13. Siempre igual.mp3
+
+/home/piranna/Música/Celtas Cortos/El Alquimista Loco (Conflicto de mayúsculas y minúsculas)/05. Mordiendo la Gran Manzana.mp3
+/home/piranna/Música/Celtas Cortos/El Alquimista Loco/05. Mordiendo la Gran Manzana.mp3
+
+/home/piranna/Música/Celtas Cortos/El Alquimista Loco (Conflicto de mayúsculas y minúsculas)/02. Je ne sais pas.mp3
+/home/piranna/Música/Celtas Cortos/El Alquimista Loco/02. Je ne sais pas.mp3
+
+/home/piranna/Música/Celtas Cortos/Cuéntame Un Cuento (Conflicto de mayúsculas y minúsculas (1))/07. 20 de abril.mp3
+/home/piranna/Música/Celtas Cortos/Cuéntame Un Cuento/07. 20 de abril.mp3
+
+/home/piranna/Música/Love of lesbian (Conflicto de mayúsculas y minúsculas (2))/Cuentos chinos para nios del Japn/02. 02 la nia imantada.mp3
+/home/piranna/Música/Love of lesbian/Cuentos chinos para nios del Japn/02. 02 la nia imantada.mp3
+
+/home/piranna/Música/Enya/The Celts/06. The sun in the stream (Case Conflict).mp3
+/home/piranna/Música/Enya/The Celts/06. The sun in the stream (1).mp3
+
+/home/piranna/Música/Lady Gaga (Case Conflict)/The Fame Monster (Explicit Version)/Front.jpg
+/home/piranna/Música/Lady Gaga/The Fame Monster (Explicit Version)/Front.jpg
+
+/home/piranna/Música/Lady Gaga (Case Conflict)/The Fame Monster (Explicit Version)/iTunes Digital Booklet.pdf
+/home/piranna/Música/Lady Gaga/The Fame Monster (Explicit Version)/iTunes Digital Booklet.pdf
+
+/home/piranna/Música/Lady Gaga (Case Conflict)/LoveGame (The Remixes)/Lady GaGa - LoveGame (The Remixes) - EP.bmp
+/home/piranna/Música/Lady Gaga/LoveGame (The Remixes)/Lady GaGa - LoveGame (The Remixes) - EP.bmp
+
+/home/piranna/Música/Lady Gaga (Case Conflict)/LoveGame (The Remixes)/Lady Gaga - LoveGame (The Remixes)/Lady GaGa - LoveGame (The Remixes) - EP.bmp
+/home/piranna/Música/Lady Gaga/LoveGame (The Remixes)/Lady Gaga - LoveGame (The Remixes)/Lady GaGa - LoveGame (The Remixes) - EP.bmp
+
+/home/piranna/Música/Lady Gaga (Case Conflict)/The Fame/album.png
+/home/piranna/Música/Lady Gaga/The Fame/album.png
+
+/home/piranna/Música/Lady Gaga (Case Conflict)/Disco Heaven (The Fame B=2.0)/Gabria Records.jpg
+/home/piranna/Música/Lady Gaga/Disco Heaven (The Fame B=2.0)/Gabria Records.jpg
+
+/home/piranna/Música/Lady Gaga (Case Conflict)/Disco Heaven (The Fame B=2.0)/LADY PORTADA.jpg
+/home/piranna/Música/Lady Gaga/Disco Heaven (The Fame B=2.0)/LADY PORTADA.jpg
+
+/home/piranna/Música/Lady Gaga (Case Conflict)/Disco Heaven (The Fame B=2.0)/LADY CONTRAPORTA.jpg
+/home/piranna/Música/Lady Gaga/Disco Heaven (The Fame B=2.0)/LADY CONTRAPORTA.jpg
+
+/home/piranna/Música/Lady Gaga (Case Conflict)/Disco Heaven (The Fame B=2.0)/LEER.txt
+/home/piranna/Música/Lady Gaga/Disco Heaven (The Fame B=2.0)/LEER.txt
+
+/home/piranna/Música/Christina y los subterráneos (Conflicto de mayúsculas y minúsculas (14))/Mi pequeño animal/10. Alicia.mp3
+/home/piranna/Música/Christina y los subterráneos/Mi pequeño animal/10. Alicia.mp3
+
+/home/piranna/Música/Christina y los subterráneos (Conflicto de mayúsculas y minúsculas (14))/Que me parta un rayo/03. PULGAS EN EL CORAZON.mp3
+/home/piranna/Música/Christina y los subterráneos/Que me parta un rayo/03. PULGAS EN EL CORAZON.mp3
+
+/home/piranna/Música/Christina y los subterráneos (Conflicto de mayúsculas y minúsculas (16))/Mi pequeño animal/12. Muertos o algo mejor.mp3
+/home/piranna/Música/Christina y los subterráneos/Mi pequeño animal/12. Muertos o algo mejor.mp3
+
+/home/piranna/Música/Katy Perry/One of the Boys (Case Conflict (8))/01. One Of The Boys.mp3
+/home/piranna/Música/Katy Perry/One of the Boys/01. One Of The Boys (1).mp3
+
+/home/piranna/Música/Katy Perry/One of the Boys (Case Conflict (4))/07. Hot N Cold.mp3
+/home/piranna/Música/Katy Perry/One of the Boys/07. Hot N Cold (1).mp3
+
+/home/piranna/Música/Katy Perry/One of the Boys (Case Conflict (2))/02. I Kissed A Girl.mp3
+/home/piranna/Música/Katy Perry/One of the Boys/02. I Kissed A Girl.mp3
+
+/home/piranna/Música/Katy Perry/One of the Boys/03. Waking Up in Vegas (Case Conflict).mp3
+/home/piranna/Música/Katy Perry/One of the Boys/03. Waking Up in Vegas (1).mp3
+
+/home/piranna/Música/Katy Perry/One of the Boys (Case Conflict (6))/11. I'm Still Breathing.mp3
+/home/piranna/Música/Katy Perry/One of the Boys/11. I'm Still Breathing (1).mp3
+
+/home/piranna/Música/Katy Perry/One of the Boys (Case Conflict (3))/06. Ur So Gay.mp3
+/home/piranna/Música/Katy Perry/One of the Boys/06. Ur So Gay (1).mp3
+
+/home/piranna/Música/Katy Perry/One of the Boys (Case Conflict)/08 If You Can Afford Me.mp3
+/home/piranna/Música/Katy Perry/One of the Boys/08 If You Can Afford Me.mp3
+
+/home/piranna/Música/Katy Perry/One of the Boys (Case Conflict)/05 Mannequin.mp3
+/home/piranna/Música/Katy Perry/One of the Boys/05 Mannequin.mp3
+
+/home/piranna/Música/Katy Perry/One of the Boys (Case Conflict)/10 Self Inflicted.mp3
+/home/piranna/Música/Katy Perry/One of the Boys/10 Self Inflicted.mp3
+
+/home/piranna/Música/Katy Perry/One of the Boys (Case Conflict (1))/09 Lost.mp3
+/home/piranna/Música/Katy Perry/One of the Boys/09 Lost.mp3
+
+/home/piranna/Música/Katy Perry/One of the Boys (Case Conflict (1))/album.png
+/home/piranna/Música/Katy Perry/One of the Boys/album (1).png
+
+/home/piranna/Música/The Beautiful South/Welcome To The Beautiful South (Case Conflict (1))/03. From under covers.mp3
+/home/piranna/Música/The Beautiful South/Welcome To The Beautiful South/03. From under covers.mp3
+
+/home/piranna/Música/The Beautiful South/Welcome To The Beautiful South (Case Conflict (1))/05. Girlfriend.mp3
+/home/piranna/Música/The Beautiful South/Welcome To The Beautiful South/05. Girlfriend.mp3
+
+/home/piranna/Música/The Beautiful South/Welcome To The Beautiful South (Case Conflict)/Welcome To The Beautiful South - 02 Have You Ever Been Away.mp3
+/home/piranna/Música/The Beautiful South/Welcome To The Beautiful South/Welcome To The Beautiful South - 02 Have You Ever Been Away (1).mp3
+
+/home/piranna/Música/The Beautiful South/Welcome To The Beautiful South (Case Conflict)/Welcome To The Beautiful South - 08 Women In The Wall.mp3
+/home/piranna/Música/The Beautiful South/Welcome To The Beautiful South/Welcome To The Beautiful South - 08 Women In The Wall (1).mp3
+
+/home/piranna/Música/Love of lesbian (Case Conflict (2))/Cuentos chinos para nios del Japn/01. 01 universos infinitos.mp3
+/home/piranna/Música/Love of lesbian/Cuentos chinos para nios del Japn/01. 01 universos infinitos.mp3
+
+/home/piranna/Música/Love of lesbian (Case Conflict (2))/Ungravity/04. Galaxy Of Loneliness.mp3
+/home/piranna/Música/Love of lesbian/Ungravity/04. Galaxy Of Loneliness.mp3
+
+/home/piranna/Música/Christina y los subterráneos (Conflicto de mayúsculas y minúsculas (15))/Que me parta un rayo/01. Tu por mi.mp3
+/home/piranna/Música/Christina y los subterráneos/Que me parta un rayo/01. Tu por mi.mp3
+
+/home/piranna/Música/fiona apple (Case Conflict (1))/Pleasantville/01. Across The Universe.mp3
+/home/piranna/Música/fiona apple/Pleasantville/01. Across The Universe.mp3
+
+/home/piranna/Música/Christina Rosenvinge/Mi pequeño animal/04. Flores Raras (Case Conflict).mp3
+/home/piranna/Música/Christina Rosenvinge/Mi pequeño animal/04. Flores Raras.mp3
+
+/home/piranna/Música/Christina Rosenvinge/Alguien Que Cuide De Mi (Case Conflict (7))/12. Palido.mp3
+/home/piranna/Música/Christina Rosenvinge/Alguien Que Cuide De Mi/12. Palido.mp3
+
+/home/piranna/Música/Christina Rosenvinge/Foreign Land (Case Conflict (2))/05. Submission.mp3
+/home/piranna/Música/Christina Rosenvinge/Foreign Land/05. Submission.mp3
+
+/home/piranna/Música/Christina Rosenvinge/Alguien Que Cuide De Mi (Case Conflict (4))/02. Tu por mi.mp3
+/home/piranna/Música/Christina Rosenvinge/Alguien Que Cuide De Mi/02. Tu por mi.mp3
+
+/home/piranna/Música/Christina Rosenvinge/Frozen Pool (Case Conflict (1))/08. Green room.mp3
+/home/piranna/Música/Christina Rosenvinge/Frozen Pool/08. Green room.mp3
+
+/home/piranna/Música/Christina Rosenvinge/Alguien Que Cuide De Mi (Case Conflict (5))/06. ¿que Se Siente_.mp3
+/home/piranna/Música/Christina Rosenvinge/Alguien Que Cuide De Mi/06. ¿que Se Siente_.mp3
+
+/home/piranna/Música/Christina Rosenvinge/Alguien Que Cuide De Mi (Case Conflict (5))/01. Solo.mp3
+/home/piranna/Música/Christina Rosenvinge/Alguien Que Cuide De Mi/01. Solo.mp3
+
+/home/piranna/Música/Christina Rosenvinge/Frozen Pool (Case Conflict (10))/01. Hunter's lullaby.mp3
+/home/piranna/Música/Christina Rosenvinge/Frozen Pool/01. Hunter's lullaby.mp3
+
+/home/piranna/Música/Christina Rosenvinge/Alguien Que Cuide De Mi (Case Conflict (6))/11. Pulgas En El Corazon.mp3
+/home/piranna/Música/Christina Rosenvinge/Alguien Que Cuide De Mi/11. Pulgas En El Corazon.mp3
+
+/home/piranna/Música/Christina Rosenvinge/Alguien Que Cuide De Mi (Case Conflict (6))/09. Dias Grandes De Teresa.mp3
+/home/piranna/Música/Christina Rosenvinge/Alguien Que Cuide De Mi/09. Dias Grandes De Teresa.mp3
+
+/home/piranna/Música/Christina Rosenvinge/Foreign Land (Case Conflict (1))/04. Dream room.mp3
+/home/piranna/Música/Christina Rosenvinge/Foreign Land/04. Dream room.mp3
+
+/home/piranna/Música/Christina Rosenvinge/Frozen Pool (Case Conflict)/09. Glue.mp3
+/home/piranna/Música/Christina Rosenvinge/Frozen Pool/09. Glue.mp3
+
+/home/piranna/Música/Christina Rosenvinge/Frozen Pool (Case Conflict)/10. Seem so long ago, Nancy.mp3
+/home/piranna/Música/Christina Rosenvinge/Frozen Pool/10. Seem so long ago, Nancy.mp3
+
+/home/piranna/Música/Christina Rosenvinge/Foreign Land (Case Conflict)/06. Lost in D.mp3
+/home/piranna/Música/Christina Rosenvinge/Foreign Land/06. Lost in D.mp3
+
+/home/piranna/Música/Anastacia/Not That Kind (Case Conflict (3))/Black roses.mp3
+/home/piranna/Música/Anastacia/Not That Kind/Black roses.mp3
+
+/home/piranna/Música/Anastacia/Not That Kind (Case Conflict (3))/Made for lovin' you.mp3
+/home/piranna/Música/Anastacia/Not That Kind/Made for lovin' you.mp3
+
+/home/piranna/Música/Anastacia/Not That Kind (Case Conflict (3))/Yo Trippin.mp3
+/home/piranna/Música/Anastacia/Not That Kind/Yo Trippin.mp3
+
+/home/piranna/Música/Anastacia/Not That Kind (Case Conflict (3))/Not that kind.mp3
+/home/piranna/Música/Anastacia/Not That Kind/Not that kind.mp3
+
+/home/piranna/Música/Anastacia/Not That Kind (Case Conflict)/I ask of you.mp3
+/home/piranna/Música/Anastacia/Not That Kind/I ask of you.mp3
+
+/home/piranna/Música/Anastacia/Not That Kind (Case Conflict)/same old story.mp3
+/home/piranna/Música/Anastacia/Not That Kind/same old story.mp3
+
+/home/piranna/Música/Anastacia/Not That Kind (Case Conflict (1))/Black roses.mp3
+/home/piranna/Música/Anastacia/Not That Kind/Black roses.mp3
+
+/home/piranna/Música/Anastacia/Not That Kind (Case Conflict (1))/Made for lovin' you.mp3
+/home/piranna/Música/Anastacia/Not That Kind/Made for lovin' you.mp3
+
+/home/piranna/Música/Anastacia/Not That Kind (Case Conflict (1))/Wishing well.mp3
+/home/piranna/Música/Anastacia/Not That Kind/Wishing well.mp3
+
+/home/piranna/Música/Anastacia/Not That Kind (Case Conflict (1))/Not that kind.mp3
+/home/piranna/Música/Anastacia/Not That Kind/Not that kind.mp3
+
+/home/piranna/Música/Chenoa/Absurda cenicienta (Case Conflict (1))/12. Para sentirte.mp3
+/home/piranna/Música/Chenoa/Absurda cenicienta/12. Para sentirte.mp3
+
+/home/piranna/Música/Chenoa/Absurda cenicienta (Case Conflict (2))/06. Mucho rodaje.mp3
+/home/piranna/Música/Chenoa/Absurda cenicienta/06. Mucho rodaje.mp3
+
+/home/piranna/Música/Chenoa/Absurda cenicienta (Case Conflict (2))/04. Sonríeme si eres tú.mp3
+/home/piranna/Música/Chenoa/Absurda cenicienta/04. Sonríeme si eres tú.mp3
+
+/home/piranna/Música/Chenoa/Absurda cenicienta (Case Conflict)/08. Dieciséis.mp3
+/home/piranna/Música/Chenoa/Absurda cenicienta/08. Dieciséis.mp3
+
+/home/piranna/Música/Chenoa/Absurda cenicienta (Case Conflict)/09. Ayúdame.mp3
+/home/piranna/Música/Chenoa/Absurda cenicienta/09. Ayúdame.mp3
+
+/home/piranna/Música/Chenoa/Absurda cenicienta (Case Conflict)/10. Cita a ciegas.mp3
+/home/piranna/Música/Chenoa/Absurda cenicienta/10. Cita a ciegas.mp3
+
+/home/piranna/Música/Chenoa/Absurda cenicienta (Case Conflict (3))/01. Todo irá bien.mp3
+/home/piranna/Música/Chenoa/Absurda cenicienta/01. Todo irá bien.mp3
+
+/home/piranna/Música/Chenoa/Absurda cenicienta (Case Conflict (3))/11. Hola cómo te va.mp3
+/home/piranna/Música/Chenoa/Absurda cenicienta/11. Hola cómo te va.mp3
+
+/home/piranna/Música/Artista desconocido/Álbum desconocido/ringin (Case Conflict (1)).wav
+/home/piranna/Música/Artista desconocido/Álbum desconocido/ringin (1).wav
+
+/home/piranna/Música/Artista desconocido/Álbum desconocido/testsnd (Case Conflict (1)).wav
+/home/piranna/Música/Artista desconocido/Álbum desconocido/testsnd (1).wav
+
+/home/piranna/Música/Artista desconocido/Álbum desconocido/08. Tengo Una Pistola (Case Conflict).mp3
+/home/piranna/Música/Artista desconocido/Álbum desconocido/08. Tengo Una Pistola.mp3
+
+/home/piranna/Música/Artista desconocido/Álbum desconocido/09. Buena Suerte Dani (Conflicto de mayúsculas y minúsculas).mp3
+/home/piranna/Música/Artista desconocido/Álbum desconocido/09. Buena Suerte Dani (1).mp3
+
+/home/piranna/Música/Artista desconocido/Álbum desconocido/06. Voy en un coche (Case Conflict).mp3
+/home/piranna/Música/Artista desconocido/Álbum desconocido/06. Voy en un coche (1).mp3
+
+/home/piranna/Música/Artista desconocido/Álbum desconocido/blip (Case Conflict (1)).wav
+/home/piranna/Música/Artista desconocido/Álbum desconocido/blip (1).wav
+
+/home/piranna/Música/Artista desconocido/Álbum desconocido/testsnd (Case Conflict).wav
+/home/piranna/Música/Artista desconocido/Álbum desconocido/testsnd (1).wav
+
+/home/piranna/Música/Artista desconocido/Álbum desconocido/09. Las suelas de mis botas (Case Conflict).mp3
+/home/piranna/Música/Artista desconocido/Álbum desconocido/09. Las suelas de mis botas (1).mp3
+
+/home/piranna/Música/Artista desconocido/Álbum desconocido/07. Ni una maldita florecita (Case Conflict).mp3
+/home/piranna/Música/Artista desconocido/Álbum desconocido/07. Ni una maldita florecita (1).mp3
+
+/home/piranna/Música/Artista desconocido/Álbum desconocido/ringin (Case Conflict).wav
+/home/piranna/Música/Artista desconocido/Álbum desconocido/ringin (1).wav
+
+/home/piranna/Música/Artista desconocido/Álbum desconocido/06. Voy en un coche (Conflicto de mayúsculas y minúsculas (1)).mp3
+/home/piranna/Música/Artista desconocido/Álbum desconocido/06. Voy en un coche (1).mp3
+
+/home/piranna/Música/Artista desconocido/Álbum desconocido/blip (Case Conflict).wav
+/home/piranna/Música/Artista desconocido/Álbum desconocido/blip (1).wav
+
+/home/piranna/Música/Artista desconocido/Álbum desconocido/06. Voy en un coche (Conflicto de mayúsculas y minúsculas).mp3
+/home/piranna/Música/Artista desconocido/Álbum desconocido/06. Voy en un coche (1).mp3
+
+/home/piranna/Música/Artista desconocido/Álbum desconocido/09. Las suelas de mis botas (Conflicto de mayúsculas y minúsculas).mp3
+/home/piranna/Música/Artista desconocido/Álbum desconocido/09. Las suelas de mis botas (1).mp3
+
+/home/piranna/Música/Artista desconocido/Álbum desconocido/05. Yo no soy tu angel (Conflicto de mayúsculas y minúsculas).mp3
+/home/piranna/Música/Artista desconocido/Álbum desconocido/05. Yo no soy tu angel (1).mp3
+
+/home/piranna/Música/Artista desconocido/Álbum desconocido/07. Ni una maldita florecita (Conflicto de mayúsculas y minúsculas).mp3
+/home/piranna/Música/Artista desconocido/Álbum desconocido/07. Ni una maldita florecita (1).mp3
+
+/home/piranna/Música/Artista desconocido/Álbum desconocido/14. Pista 14 (Case Conflict).mp3
+/home/piranna/Música/Artista desconocido/Álbum desconocido/14. Pista 14 (1).mp3
+
+/home/piranna/Música/Artista desconocido/Álbum desconocido/10. Alguien Que Cuide De Mi (Case Conflict).mp3
+/home/piranna/Música/Artista desconocido/Álbum desconocido/10. Alguien Que Cuide De Mi (1).mp3
+
+/home/piranna/Música/Artista desconocido/Álbum desconocido/Miguel Bosé.Amante Bandido (Case Conflict).mp3
+/home/piranna/Música/Artista desconocido/Álbum desconocido/Miguel Bosé.Amante Bandido (1).mp3
+
+/home/piranna/Música/Artista desconocido/Álbum desconocido/01. Tu Por Mi (Case Conflict).mp3
+/home/piranna/Música/Artista desconocido/Álbum desconocido/01. Tu Por Mi (1).mp3
+
+/home/piranna/Música/Artista desconocido/Álbum desconocido/10. Alguien Que Cuide De Mi (Conflicto de mayúsculas y minúsculas).mp3
+/home/piranna/Música/Artista desconocido/Álbum desconocido/10. Alguien Que Cuide De Mi (1).mp3
+
+/home/piranna/Música/Artista desconocido/Álbum desconocido/13. Pista 13 (Case Conflict).mp3
+/home/piranna/Música/Artista desconocido/Álbum desconocido/13. Pista 13 (1).mp3
+
+/home/piranna/Música/Love of lesbian (Conflicto de mayúsculas y minúsculas)/Is it Fiction_/make up.mp3
+/home/piranna/Música/Love of lesbian/Is it Fiction_/make up.mp3
+
+/home/piranna/Música/Love of lesbian (Conflicto de mayúsculas y minúsculas)/Is it Fiction_/stupid at all.mp3
+/home/piranna/Música/Love of lesbian/Is it Fiction_/stupid at all.mp3
+
+/home/piranna/Música/Love of lesbian (Conflicto de mayúsculas y minúsculas)/Is it Fiction_/lou reed in my city.mp3
+/home/piranna/Música/Love of lesbian/Is it Fiction_/lou reed in my city.mp3
+
+/home/piranna/Música/Love of lesbian (Conflicto de mayúsculas y minúsculas)/Is it Fiction_/wasted days.mp3
+/home/piranna/Música/Love of lesbian/Is it Fiction_/wasted days.mp3
+
+/home/piranna/Música/Love of lesbian (Conflicto de mayúsculas y minúsculas)/Is it Fiction_/shine it all.mp3
+/home/piranna/Música/Love of lesbian/Is it Fiction_/shine it all.mp3
+
+/home/piranna/Música/Love of lesbian (Conflicto de mayúsculas y minúsculas)/Ungravity/09. Radio In My Brain.mp3
+/home/piranna/Música/Love of lesbian/Ungravity/09. Radio In My Brain.mp3
+
+/home/piranna/Música/Love of lesbian (Conflicto de mayúsculas y minúsculas)/Ungravity/01. Hi To The Next Time.mp3
+/home/piranna/Música/Love of lesbian/Ungravity/01. Hi To The Next Time.mp3
+
+/home/piranna/Música/DJ Shadow/the private press (Case Conflict)/06. Six Days.mp3
+/home/piranna/Música/DJ Shadow/the private press/06. Six Days.mp3
+
+/home/piranna/Música/Christina y los subterráneos (Conflicto de mayúsculas y minúsculas (13))/Que me parta un rayo/04. SEÑORITA.mp3
+/home/piranna/Música/Christina y los subterráneos/Que me parta un rayo/04. SEÑORITA.mp3
+
+/home/piranna/Música/Christina y los subterráneos (Conflicto de mayúsculas y minúsculas (13))/Que me parta un rayo/03. Pulgas en el corazon.mp3
+/home/piranna/Música/Christina y los subterráneos/Que me parta un rayo/03. Pulgas en el corazon.mp3
+
+/home/piranna/Música/Bloodhound Gang/Hooray For Boobies (Case Conflict (5))/21. The Bad Touch (The Eiffel 65 Mix).mp3
+/home/piranna/Música/Bloodhound Gang/Hooray For Boobies/21. The Bad Touch (The Eiffel 65 Mix).mp3
+
+/home/piranna/Música/Bloodhound Gang/Hooray For Boobies (Case Conflict (1))/04. Three Point One Four.mp3
+/home/piranna/Música/Bloodhound Gang/Hooray For Boobies/04. Three Point One Four.mp3
+
+/home/piranna/Música/Bloodhound Gang/Hooray For Boobies (Case Conflict (1))/01. I Hope You Die.mp3
+/home/piranna/Música/Bloodhound Gang/Hooray For Boobies/01. I Hope You Die.mp3
+
+/home/piranna/Música/Bloodhound Gang/Hooray For Boobies (Case Conflict (1))/10. 10. The Bad Touch.mp3
+/home/piranna/Música/Bloodhound Gang/Hooray For Boobies/10. 10. The Bad Touch.mp3
+
+/home/piranna/Música/Bloodhound Gang/Hooray For Boobies (Case Conflict (1))/10. The Bad Touch.mp3
+/home/piranna/Música/Bloodhound Gang/Hooray For Boobies/10. The Bad Touch.mp3
+
+/home/piranna/Música/Bloodhound Gang/Hooray For Boobies (Case Conflict (1))/06. Yummy Down On This.mp3
+/home/piranna/Música/Bloodhound Gang/Hooray For Boobies/06. Yummy Down On This.mp3
+
+/home/piranna/Música/Bloodhound Gang/Hooray For Boobies (Case Conflict (1))/09. Magna Cum Nada.mp3
+/home/piranna/Música/Bloodhound Gang/Hooray For Boobies/09. Magna Cum Nada.mp3
+
+/home/piranna/Música/Love of lesbian (Conflicto de mayúsculas y minúsculas (3))/Cuentos chinos para niños del Japón/08. Me amo.mp3
+/home/piranna/Música/Love of lesbian/Cuentos chinos para niños del Japón/08. Me amo.mp3
+
+/home/piranna/Música/Love of lesbian (Conflicto de mayúsculas y minúsculas (3))/Is it Fiction_/evasive.mp3
+/home/piranna/Música/Love of lesbian/Is it Fiction_/evasive.mp3
+
+/home/piranna/Música/Love of lesbian (Conflicto de mayúsculas y minúsculas (3))/Cuentos chinos para nios del Japn/14. 14 shiwa (tot a zen).mp3
+/home/piranna/Música/Love of lesbian/Cuentos chinos para nios del Japn/14. 14 shiwa (tot a zen).mp3
+
+/home/piranna/Música/Love of lesbian (Conflicto de mayúsculas y minúsculas (3))/Cuentos chinos para nios del Japn/12. 12 dios por dios es cuatro.mp3
+/home/piranna/Música/Love of lesbian/Cuentos chinos para nios del Japn/12. 12 dios por dios es cuatro.mp3
+
+/home/piranna/Música/Love of lesbian (Conflicto de mayúsculas y minúsculas (3))/Cuentos chinos para nios del Japn/06. 06 villancico para mi cuado fernando.mp3
+/home/piranna/Música/Love of lesbian/Cuentos chinos para nios del Japn/06. 06 villancico para mi cuado fernando.mp3
+
+/home/piranna/Música/Varios artistas/Lollipop (Case Conflict)/05. AudioTrack 05 (Copia en conflicto de SquaredHead 2013-07-30).mp3
+/home/piranna/Música/Varios artistas/Lollipop/05. AudioTrack 05 (Copia en conflicto de SquaredHead 2013-07-30).mp3
+
+/home/piranna/Música/Natalie Imbruglia/greatest hits (Case Conflict)/08. Why.mp3
+/home/piranna/Música/Natalie Imbruglia/greatest hits/08. Why (1).mp3
+
+/home/piranna/Música/Jarabe de Palo (Conflicto de mayúsculas y minúsculas (2))/Bonito/05. No sé estar enamorado.mp3
+/home/piranna/Música/Jarabe de Palo/Bonito/05. No sé estar enamorado.mp3
+
