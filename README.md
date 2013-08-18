@@ -15,5 +15,6 @@ To-Do
 ** Do a first check by size instead of doing directly the hash
 
 * Other functionality
-** Allow to write metadata in files instead of only show paths
+** Add options to enable functionality independently
 ** Allow to delete duplicated files after filling metadata (no need of 'fdupes')
+** Use ID3 instead of EasyID3 to have access to all the tags

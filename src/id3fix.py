@@ -30,7 +30,11 @@ class Duplicate:
     def _apply(self, key, value):
         for id3 in self.files.itervalues():
             # Updage global tags counter
-            old_value = id3[key]
+            try:
+                old_value = id3[key]
+            except KeyError:
+                old_value = None
+
             tags = tags_values[key]
 
             if old_value:
@@ -152,7 +156,6 @@ class Id3fix:
                 def fixConflict(key, conflict):
                     # Get the most common values
                     most_common = getMostCommons(conflict.most_common())
-                    print most_common
 
                     # More than one is the most common, select one
                     if len(most_common) > 1:
@@ -165,7 +168,6 @@ class Id3fix:
                         values = Counter(values)
 
                         most_common = getMostCommons(values.most_common())
-                        print most_common
 
                         # More than one is still the most common,
                         # queue it to re-check later
@@ -260,11 +262,11 @@ if __name__ == '__main__':
         return values[index]
 
     id3fix.fix(user_feedback)
-#    id3fix.save()
+    id3fix.save()
 
     for duplicate in id3fix.itervalues():
         if(len(duplicate.files) > 1):
-            print "Files:", duplicate.files
+            print "Files:", duplicate.files.keys()
 #            print "Commons", duplicate.commons
             if duplicate.merge:
                 print "Merge:", duplicate.merge
