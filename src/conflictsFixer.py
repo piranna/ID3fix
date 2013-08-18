@@ -51,7 +51,7 @@ def fixConflict(root, oldPath):
 
 if __name__ == '__main__':
     from argparse import ArgumentParser
-    from os       import walk
+    from os       import removedirs, walk
     from os.path  import abspath
 
     parser = ArgumentParser()
@@ -65,3 +65,5 @@ if __name__ == '__main__':
         for dirpath, dirnames, filenames in walk(arg_dir):
             for name in filenames:
                 fixConflict(root, join(dirpath, name))
+            for name in dirnames:
+                removedirs(join(dirpath, name))
