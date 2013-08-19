@@ -45,9 +45,7 @@ def fixConflict(root, oldPath):
 
     renames(oldPath, newPath)
 
-    print oldPath
-    print newPath
-    print
+    print '[Renamed]',oldPath,'=>',newPath
 
 
 if __name__ == '__main__':
