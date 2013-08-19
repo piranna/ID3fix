@@ -20,9 +20,6 @@ CONFLICT_REGEX = [r' \(\d+\)',
 
 
 def genNonConflictingPath(newPath, oldPath):
-    if newPath == oldPath:
-        return
-
     root, ext = splitext(newPath)
 
     for index in count(1):
@@ -35,20 +32,23 @@ def genNonConflictingPath(newPath, oldPath):
             return newPath
 
 
-def fixConflict(root, oldPath):
-    path = relpath(oldPath, root)
+def fixConflict(root, oldRoot, oldPath):
+    newPath = oldPath
+    oldPath = join(oldRoot, oldPath)
 
     for regex in CONFLICT_REGEX:
-        path = sub(regex, '', path)
+        newPath = sub(regex, '', newPath)
 
-    newPath = join(root, path)
+    newPath = join(root, newPath)
+
+    if newPath == oldPath:
+        return
 
     if exists(newPath):
         newPath = genNonConflictingPath(newPath, oldPath)
 
     if newPath:
-        #renames(oldPath, newPath)
-
+        renames(oldPath, newPath)
         print '[Renamed]',oldPath,'=>',newPath
 
 
@@ -66,15 +66,15 @@ if __name__ == '__main__':
     for index, arg_dir in enumerate(args.dirs):
         args.dirs[index] = abspath(arg_dir)
 
-    root = dirname(commonprefix(args.dirs))
-    print '[Root]',root
+    root = args.dirs[0]
 
     for arg_dir in args.dirs:
         for dirpath, dirnames, filenames in walk(arg_dir):
+            path = relpath(dirpath, arg_dir)
 
             # Conflicted files
             for name in filenames:
-                fixConflict(root, join(dirpath, name))
+                fixConflict(root, arg_dir, join(path, name))
 
 #             # Empty directories
 #             for name in dirnames:
