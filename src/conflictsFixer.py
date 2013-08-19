@@ -13,8 +13,9 @@ from os.path   import exists, join, splitext
 from re        import sub
 
 
-CONFLICT_REGEX = [r' \(Case Conflict( \(\d+\))?\)',
-                  r' \(Conflicto de mayúsculas y minúsculas( \(\d+\))?\)',
+CONFLICT_REGEX = [r' \(\d+\)',
+                  r' \(Case Conflict\)',
+                  r' \(Conflicto de mayúsculas y minúsculas\)',
                   r' \(Copia en conflicto de .+? \d{4}-\d{2}-\d{2}\)']
 
 
