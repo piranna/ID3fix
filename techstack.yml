@@ -2,7 +2,7 @@ repo_name: piranna/ID3fix
 report_id: bb17d0c7bea82a682d2490e4269e164c
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-27T06:16:39+00:00'
+timestamp: '2024-01-05T08:14:55+00:00'
 requested_by: piranna
 provider: github
 branch: master
@@ -17,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/piranna/ID3fix
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -26,4 +27,5 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/piranna/ID3fix
   detection_source: Repo Metadata
